@@ -1,0 +1,96 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: inherit;
+}
+html {
+  font-size: 80%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Press Start 2P", sans-serif;
+  color: rgb(238, 238, 238);
+  background-color: rgb(34, 34, 34);
+}
+/*Layout */
+#header {
+  height: 45vh;
+  position: relative;
+  border-bottom: 5px solid #eee;
+}
+#main {
+  height: 55vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right {
+  width: 40%;
+  font-size: 1.5rem;
+}
+/* Element style */
+.btt {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: rgb(238, 238, 238);
+}
+.btt:hover {
+  background-color: #ccc;
+}
+.between {
+  font-size: 2rem;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+.again {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+h1 {
+  font-size: 3rem;
+  margin-top: 15px;
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.number {
+  text-align: center;
+  color: #333;
+  width: 10rem;
+  font-size: 3rem;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  padding: 1.5rem 1rem;
+  background-color: rgb(238, 238, 238);
+}
+
+.input {
+  background-color: inherit;
+  /*background: none;*/
+  border: 4px solid #eee;
+  width: 150px;
+  height: 50px;
+  margin-bottom: 1.5rem;
+  padding: 2rem 1rem;
+  color: inherit;
+  font-family: inherit;
+  font-size: 2rem;
+  text-align: center;
+}
+h2 {
+  margin-bottom: 50px;
+}
+.score {
+  font-size: 20px;
+}
